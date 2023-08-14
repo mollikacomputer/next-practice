@@ -1,10 +1,10 @@
 import React from 'react';
 
 const page = ({params}) => {
-    console.log(params.id);
+    const [year, id] = params.segment;
     return (
         <div>
-            <h2> Dynamic page {params.id} </h2>
+            <h2> Dynamic page {year} for {id} </h2>
         </div>
     );
 };
