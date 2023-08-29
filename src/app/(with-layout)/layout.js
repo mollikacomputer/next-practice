@@ -1,5 +1,9 @@
 import Navbar from '@/components/Navbar';
-import React from 'react';
+export const metadata = {
+    title: 'Profile Page',
+    description: 'Hero Description with profile',
+  
+  }
 
 const layoutPage = ({children}) => {
     return (
