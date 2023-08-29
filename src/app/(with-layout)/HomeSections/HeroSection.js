@@ -4,7 +4,7 @@ import useSomething from '@/hooks/useSomething';
 const HeroSection = () => {
     return (
         <div>
-            <h2> Hero Section </h2>
+            <h2 className='text-3xl'> Hero Section </h2>
         </div>
     );
 };
