@@ -34,7 +34,7 @@ const Navbar = () => {
             <h1 className="text-3xl font-semibold"> Next Hero </h1>
             <ul className="flex items-center justify-center">
                 {navLinks.map(({path, title}) => (<li className="mx-2" key={path} >
-                    <NavLink href={path} > {title} </NavLink>
+                    <NavLink activeClassName={'text-blue-500'} href={path} > {title} </NavLink>
                 </li>))
                 }
             </ul>
