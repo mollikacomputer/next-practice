@@ -1,11 +1,11 @@
 import React from 'react';
 
-const adminPage = () => {
+const AddUser = () => {
     return (
         <div>
-            <h2>Admin page Nested Route admin page</h2>
+            <h2 className='text-3xl font-samebold'>Add user</h2>
         </div>
     );
 };
 
-export default adminPage;
+export default AddUser;
