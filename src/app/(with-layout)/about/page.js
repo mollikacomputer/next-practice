@@ -1,3 +1,4 @@
+import wait from '@/utils/wait';
 import React from 'react';
 
 export const metadata = {
@@ -6,11 +7,11 @@ export const metadata = {
   
   }
 
-const AboutPage = () => {
-
+const AboutPage = async () => {
+    await wait();
     return (
         <div>
-            <h2>About Page</h2>
+            <h2 className='text-3xl'>About Page</h2>
         </div>
     );
 };
