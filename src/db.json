@@ -1,0 +1,36 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"Ranjit Kumar Mandal",
+            "email":"ranjit@gmail.com",
+            "phone":"01300241001"
+        },
+        {
+            "id":2,
+            "name":"Arun Halder",
+            "email":"Arun@gmail.com",
+            "phone":"01400000000"
+        },
+        {
+            "id":3,
+            "name":"Tusar Baidya",
+            "email":"Tusar@gmail.com",
+            "phone":"01600000000"
+        }
+    ],
+    "admin":[
+        {
+            "id":1,
+            "name":"Ranjit Kumar Mandal",
+            "email":"ranjit@gmail.com",
+            "phone":"01300241001"
+        },
+        {
+            "id":2,
+            "name":"Sanjit Roy",
+            "email":"sanjit@gmail.com",
+            "phone":"01700241001"
+        }
+    ]
+}
