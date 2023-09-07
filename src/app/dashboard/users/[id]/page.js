@@ -1,9 +1,20 @@
 import loadSingleData from '@/utils/loadSingleData';
+import loadUserData from '@/utils/loadUserData';
 
-export const generateMetadata = () =>{
+export const generateMetadata = async({params}) =>{
+    const {name} = await loadSingleData(params.id);
     return {
-        title:'Meta Data'
+        title:name,
     }
+};
+
+export const generateStaticParams = async()=>{
+    const users = await loadUserData();
+
+    return users.map(({id}) =>({id: id.toString()}));
+        // {
+        //  users.map((user) =>({id:user.id.toString();}))
+        // }
 }
 
 const page = async ({params}) => {
