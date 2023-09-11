@@ -1,5 +1,4 @@
 import HomeLoadingSection from '@/components/HomeLoadingSection';
-import Image from 'next/image'
 import { Suspense } from 'react';
 
  const HomePage = () => {
